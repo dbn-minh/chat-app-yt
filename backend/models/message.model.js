@@ -2,9 +2,9 @@ import mongoose from 'mongoose';
 
 /**
  * @typedef {Object} MessageType
- * @property {mongoose.Types.ObjectId} senderId - ID của người gửi
- * @property {mongoose.Types.ObjectId} receiverId - ID của người nhận
- * @property {string} message - Nội dung tin nhắn
+ * @property {mongoose.Types.ObjectId} senderId
+ * @property {mongoose.Types.ObjectId} receiverId
+ * @property {string} message
  */
 
 /**

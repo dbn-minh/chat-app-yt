@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 
 /**
  * @typedef {Object} ConversationType
- * @property {mongoose.Types.ObjectId[]} participants - Danh sách các participant (user IDs)
- * @property {mongoose.Types.ObjectId[]} messages - Danh sách các message IDs
+ * @property {mongoose.Types.ObjectId[]} participants
+ * @property {mongoose.Types.ObjectId[]} messages
  */
 
 /**
